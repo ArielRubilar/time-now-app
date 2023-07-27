@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply text-neutral-500;
+}
+
 @font-face {
   font-family: "ADELIA";
   src: url("../../public/fonts/Inter-Black.woff");
