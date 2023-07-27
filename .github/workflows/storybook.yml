@@ -33,4 +33,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
         with:
-          folder: storybook-static # output folder from `npm run build-storybook`
+          folder: ./storybook-static # output folder from `npm run build-storybook`
