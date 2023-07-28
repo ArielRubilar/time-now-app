@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import { Alert } from './Alert'
 import { Icons } from '../Icons'
 
-const icons =  { Logo: <Icons.Logo /> , CheckMark: <Icons.CheckMark />}
+const icons =  { Logo: <Icons.Logo /> , CheckMark: <Icons.CheckMark /> , Shield: <Icons.Shield />}
 
 const meta = {
   title: 'UI/Alert',
