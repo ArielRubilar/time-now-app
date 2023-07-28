@@ -75,7 +75,7 @@ export default function Home() {
                         <div>
                               <SectionTitle as="h2" className="mb-5" >Real-time data tha tell you everything.</SectionTitle>
                               <p className="pb-6">Get detailed reports of what's working and what isn't.Engagement rates, impressions, views, and much more data is available to your  thought our in-deep dashboard tool.</p>
-                              <a href="/" className="font-bold">View live demo</a>
+                              <Link href={'/'} className={buttonStyles('secondary')}>View live demo</Link>
                         </div>
                         </div>
                      
